@@ -5,24 +5,24 @@ public class Main {
         //紧急项目
         Work emergencyProjects = new Work();
         emergencyProjects.setHour(9);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
         emergencyProjects.setHour(10);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
         emergencyProjects.setHour(12);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
         emergencyProjects.setHour(13);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
         emergencyProjects.setHour(14);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
         emergencyProjects.setHour(17);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
 
         //emergencyProjects.setFinish(true);
         emergencyProjects.setFinish(false);
 
         emergencyProjects.setHour(19);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
         emergencyProjects.setHour(22);
-        emergencyProjects.WriteProgram();
+        emergencyProjects.writeProgram();
     }
 }

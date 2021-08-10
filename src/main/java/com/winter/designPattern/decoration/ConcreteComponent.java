@@ -5,7 +5,7 @@ package com.winter.designPattern.decoration;
  */
 public class ConcreteComponent extends Component{
     @Override
-    public void Operation() {
+    public void operation() {
         System.out.println("具体对象的操作");
     }
 }

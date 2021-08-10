@@ -1,10 +1,10 @@
 package com.winter.designPattern.factoryMethod.factoryMethodDemo1;
 
-import com.winter.algorithm.designPattern.simpleFactory.Operation;
+import com.winter.designPattern.simpleFactory.Operation;
 
 /**
  * 工厂接口
  */
 public interface IFactory {
-    Operation CreateOperation();
+    Operation createOperation();
 }

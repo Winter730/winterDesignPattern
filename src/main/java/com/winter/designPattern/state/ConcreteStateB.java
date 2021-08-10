@@ -5,7 +5,7 @@ package com.winter.designPattern.state;
  */
 public class ConcreteStateB extends State {
     @Override
-    public void Handle(Context context) {
+    public void handle(Context context) {
         //设置ConcreteStateB的下一状态是ConcreteStateA
         context.setState(new ConcreteStateA());
     }

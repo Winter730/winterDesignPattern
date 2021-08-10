@@ -6,18 +6,18 @@ public class Main {
         ab = new HandsetBrandN();
 
         ab.setSoft(new HandsetGame());
-        ab.Run();
+        ab.run();
 
         ab.setSoft(new HandsetAddressList());
-        ab.Run();
+        ab.run();
 
         ab = new HandsetBrandM();
 
         ab.setSoft(new HandsetGame());
-        ab.Run();
+        ab.run();
 
         ab.setSoft(new HandsetAddressList());
-        ab.Run();
+        ab.run();
 
 
     }

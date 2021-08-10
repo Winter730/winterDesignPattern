@@ -17,24 +17,24 @@ public class Composite extends Component{
 
 
     @Override
-    public void Add(Component c) {
+    public void add(Component c) {
         children.add(c);
     }
 
     @Override
-    public void Remove(Component c) {
+    public void remove(Component c) {
         children.remove(c);
     }
 
     @Override
-    public void Display(int depth) {
+    public void display(int depth) {
         for(int i = 0; i < depth;i++){
             System.out.print("-");
         }
         System.out.println(name);
 
         for(Component component : children){
-            component.Display(depth + 2);
+            component.display(depth + 2);
         }
     }
 }

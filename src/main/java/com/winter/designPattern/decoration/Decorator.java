@@ -14,9 +14,9 @@ public class Decorator extends Component {
 
     //重写Operation(),实际执行的是Component的Operation()
     @Override
-    public void Operation() {
+    public void operation() {
         if(component != null) {
-            component.Operation();
+            component.operation();
         }
     }
 }

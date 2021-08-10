@@ -12,19 +12,19 @@ public class Subject {
     private List<Observer> observers = new ArrayList<>();
 
     //增加观察者
-    public void Attach(Observer observer){
+    public void attach(Observer observer){
         observers.add(observer);
     }
 
     //移除观察者
-    public void Detach(Observer observer){
+    public void detach(Observer observer){
         observers.remove(observer);
     }
 
     //通知
     public void Notify(){
         for(Observer observer: observers){
-            observer.Update();
+            observer.update();
         }
     }
 }

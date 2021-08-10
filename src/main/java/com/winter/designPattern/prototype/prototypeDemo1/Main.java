@@ -13,8 +13,8 @@ public class Main {
         Resume c = (Resume) a.clone();
         c.setPersonalInfo("男","24");
 
-        a.Display();
-        b.Display();
-        c.Display();
+        a.display();
+        b.display();
+        c.display();
     }
 }

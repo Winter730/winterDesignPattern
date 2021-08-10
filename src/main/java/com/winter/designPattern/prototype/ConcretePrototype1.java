@@ -12,9 +12,9 @@ public class ConcretePrototype1 extends Prototype {
      * 因此,原始对象及其副本引用同一对象。
      */
     @Override
-    public Prototype Clone() {
+    public Object Clone() {
         try {
-            return (Prototype) this.clone();
+            return super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }

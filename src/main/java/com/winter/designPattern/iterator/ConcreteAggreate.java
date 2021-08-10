@@ -10,7 +10,7 @@ public class ConcreteAggreate extends Aggregate {
     //声明一个List泛型变量，用于存放聚合对象
     private List<Object> items = new ArrayList<>();
     @Override
-    public Iterator CreateIterator() {
+    public Iterator createIterator() {
         return new ConcreteIterator(this);
     }
 

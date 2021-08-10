@@ -6,7 +6,7 @@ public class Main {
         Barbecuer boy = new Barbecuer();
         Command bakeMuttonCommand1 = new BakeMuttonCommand(boy);
         Command bakeMuttonCommand2 = new BakeMuttonCommand(boy);
-        Command bakeChickenWingCommand1 = new BakeChinkenWingsCommand(boy);
+        Command bakeChickenWingCommand1 = new BakeChickenWingsCommand(boy);
 
         Waiter girl = new Waiter();
 

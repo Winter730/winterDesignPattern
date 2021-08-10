@@ -2,6 +2,7 @@ package com.winter.designPattern.simpleFactory;
 
 /**
  * 简单工厂模式
+ * 简单工厂运算类
  */
 public class OperationFactory {
     public static Operation createOperate(String operate){
@@ -21,13 +22,5 @@ public class OperationFactory {
                 break;
         }
         return oper;
-    }
-
-    public static void main(String[] args){
-        Operation oper = OperationFactory.createOperate("+");
-        oper.set_numberA(1);
-        oper.set_numberB(2);
-        double result = oper.GetResult();
-        System.out.println(result);
     }
 }

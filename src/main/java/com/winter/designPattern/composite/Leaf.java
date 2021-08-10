@@ -12,18 +12,18 @@ public class Leaf extends Component {
     //但这样做可以消除叶节点和枝节点对象在抽象层次的区别
     //它们具备完全一致的接口
     @Override
-    public void Add(Component c) {
+    public void add(Component c) {
         System.out.println("Cannot add to a leaf");
     }
 
     @Override
-    public void Remove(Component c) {
+    public void remove(Component c) {
         System.out.println("Cannot remove from a leaf");
     }
 
     @Override
     //显示其名称和级别
-    public void Display(int depth) {
+    public void display(int depth) {
         for(int i = 0; i < depth;i++){
             System.out.print("-");
         }

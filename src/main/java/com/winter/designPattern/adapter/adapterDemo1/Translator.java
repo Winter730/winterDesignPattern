@@ -9,12 +9,12 @@ public class Translator extends Player {
     }
 
     @Override
-    public void Attack() {
-        wjzf.attact();
+    public void attack() {
+        wjzf.attack();
     }
 
     @Override
-    public void Defense() {
+    public void defense() {
         wjzf.defence();
     }
 }

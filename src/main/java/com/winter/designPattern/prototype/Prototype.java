@@ -3,7 +3,7 @@ package com.winter.designPattern.prototype;
 /**
  * 原型类
  */
-public abstract class Prototype{
+public abstract class Prototype implements Cloneable{
     private String id;
 
     public Prototype(String id){
@@ -15,7 +15,7 @@ public abstract class Prototype{
     }
 
     //抽象类关键就是有这样一个Clone方法
-    public abstract Prototype Clone();
+    public abstract Object Clone();
 
 
 

@@ -12,9 +12,9 @@ public abstract class Component {
     }
 
     //通常都使用Add和Remove方法来提供增加或移除树叶或树枝的功能
-    public abstract void Add(Component c);
+    public abstract void add(Component c);
 
-    public abstract void Remove(Component c);
+    public abstract void remove(Component c);
 
-    public abstract void Display(int depth);
+    public abstract void display(int depth);
 }

@@ -4,8 +4,9 @@ package com.winter.designPattern.strategy.simpleFactoryDemo;
  * 返利收费子类
  */
 public class CashReturn extends CashSuper{
-    private double moneyCondition = 0.0d;
-    private double moneyReturn = 0.0d;
+    private double moneyCondition;
+
+    private double moneyReturn;
 
     /**
      * 返利收费,初始化时必须要输入返利条件和返利值

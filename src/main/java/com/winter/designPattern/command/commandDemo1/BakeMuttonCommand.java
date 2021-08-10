@@ -6,7 +6,7 @@ public class BakeMuttonCommand extends Command {
     }
 
     @Override
-    public void ExecuteCommand() {
-        receiver.BakeMutton();
+    public void executeCommand() {
+        receiver.bakeMutton();
     }
 }

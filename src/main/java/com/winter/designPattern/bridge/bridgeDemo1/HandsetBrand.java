@@ -9,6 +9,6 @@ public abstract class HandsetBrand {
     }
 
     //运行
-    public abstract void Run();
+    public abstract void run();
 
 }

@@ -10,7 +10,7 @@ public class ConcreteCommand extends Command{
     }
 
     @Override
-    public void Execute() {
-        receiver.Action();
+    public void execute() {
+        receiver.action();
     }
 }

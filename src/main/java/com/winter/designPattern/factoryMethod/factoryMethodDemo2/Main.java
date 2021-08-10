@@ -4,18 +4,18 @@ public class Main {
     public static void main(String[] args) {
         //工厂方法模式
         IFactory factory = new VolunteerFactory();
-        LeiFeng student = factory.CreateLeiFeng();
+        LeiFeng student = factory.createLeiFeng();
 
-        student.BuyRice();
-        student.Sweep();
-        student.Wash();
+        student.buyRice();
+        student.sweep();
+        student.wash();
 
         //简单工厂模式
-        LeiFeng studentA = SimpleFactory.CreateLeiFeng("学雷锋的大学生");
-        studentA.BuyRice();
-        LeiFeng studentB = SimpleFactory.CreateLeiFeng("学雷锋的大学生");
-        studentB.Sweep();
-        LeiFeng studentC = SimpleFactory.CreateLeiFeng("学雷锋的大学生");
-        studentC.Wash();
+        LeiFeng studentA = SimpleFactory.createLeiFeng("学雷锋的大学生");
+        studentA.buyRice();
+        LeiFeng studentB = SimpleFactory.createLeiFeng("学雷锋的大学生");
+        studentB.sweep();
+        LeiFeng studentC = SimpleFactory.createLeiFeng("学雷锋的大学生");
+        studentC.wash();
     }
 }

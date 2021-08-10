@@ -7,6 +7,6 @@ public class Main {
         Invoker i = new Invoker();
 
         i.setCommand(c);
-        i.ExecuteCommand();
+        i.executeCommand();
     }
 }

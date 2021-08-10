@@ -19,7 +19,7 @@ public class ObjectStructure {
 
     public void accept(Visitor visitor) {
         for(Element e: elements) {
-            e.Accept(visitor);
+            e.accept(visitor);
         }
     }
 }

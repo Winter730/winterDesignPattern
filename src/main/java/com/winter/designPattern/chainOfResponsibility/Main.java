@@ -12,7 +12,7 @@ public class Main {
         int[] requests = {2, 5, 14, 22, 18, 3, 27, 20};
 
         for(int request: requests){
-            h1.HandlerRequest(request);
+            h1.handlerRequest(request);
         }
     }
 }

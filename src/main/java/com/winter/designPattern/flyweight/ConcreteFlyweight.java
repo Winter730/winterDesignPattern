@@ -5,7 +5,7 @@ package com.winter.designPattern.flyweight;
  */
 public class ConcreteFlyweight extends Flyweight{
     @Override
-    public void Operation(int extrinsicState) {
+    public void operation(int extrinsicState) {
         System.out.println("具体Flyweight:" + extrinsicState);
     }
 }

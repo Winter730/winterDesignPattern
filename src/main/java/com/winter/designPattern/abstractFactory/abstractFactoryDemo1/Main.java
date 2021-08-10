@@ -5,9 +5,9 @@ public class Main {
         User user = new User();
         //IFactory factory = new SqlServerFactory();
         IFactory factory = new AccessFactory();
-        IUser iu = factory.CreateUser();
+        IUser iu = factory.createUser();
 
-        iu.Insert(user);
+        iu.insert(user);
         iu.getUser(1);
     }
 }

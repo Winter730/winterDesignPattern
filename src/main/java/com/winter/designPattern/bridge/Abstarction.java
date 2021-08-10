@@ -7,7 +7,7 @@ public abstract class Abstarction {
         this.implementor = implementor;
     }
 
-    public void Operation(){
-        implementor.Operation();
+    public void operation(){
+        implementor.operation();
     }
 }

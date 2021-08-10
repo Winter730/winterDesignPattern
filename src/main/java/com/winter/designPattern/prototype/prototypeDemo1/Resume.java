@@ -30,7 +30,7 @@ public class Resume implements Cloneable {
         this.company = company;
     }
 
-    public void Display(){
+    public void display(){
         System.out.println(name + " " + sex + " " + age);
         System.out.println("工作经历:" + timeArea + " " + company);
     }

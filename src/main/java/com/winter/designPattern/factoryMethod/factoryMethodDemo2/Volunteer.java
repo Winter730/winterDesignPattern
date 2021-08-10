@@ -3,20 +3,20 @@ package com.winter.designPattern.factoryMethod.factoryMethodDemo2;
 public class Volunteer extends LeiFeng {
 
     @Override
-    public void Sweep() {
+    public void sweep() {
         System.out.print("我是社区志愿者,我来");
-        super.Sweep();
+        super.sweep();
     }
 
     @Override
-    public void Wash() {
+    public void wash() {
         System.out.print("我是社区志愿者,我来");
-        super.Wash();
+        super.wash();
     }
 
     @Override
-    public void BuyRice() {
+    public void buyRice() {
         System.out.print("我是社区志愿者,我来");
-        super.BuyRice();
+        super.buyRice();
     }
 }

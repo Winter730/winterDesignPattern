@@ -7,15 +7,15 @@ public class Pursuit implements GiveGift {
         this.mm = mm;
     }
 
-    public void GiveDolls(){
+    public void giveDolls(){
         System.out.println(mm.getName() + " 送你洋娃娃");
     }
 
-    public void GiveFlowers(){
+    public void giveFlowers(){
         System.out.println(mm.getName() + " 送你鲜花");
     }
 
-    public void GiveChocolate(){
+    public void giveChocolate(){
         System.out.println(mm.getName() + " 送你巧克力");
     }
 

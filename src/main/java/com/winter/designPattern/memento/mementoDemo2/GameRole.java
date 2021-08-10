@@ -38,7 +38,7 @@ public class GameRole {
     }
 
     //状态显示
-    public void StateDisplay(){
+    public void stateDisplay(){
         System.out.println("角色当前状态: ");
         System.out.println("体力: " + this.vit);
         System.out.println("攻击力: " + this.atk);
@@ -48,7 +48,7 @@ public class GameRole {
 
     //获得初始状态
     //数据通常来自本地磁盘或远程数据库
-    public void GetInitState(){
+    public void getInitState(){
         this.vit = 100;
         this.atk = 100;
         this.def = 100;
@@ -56,7 +56,7 @@ public class GameRole {
 
     //战斗
     //在与Boss大战后游戏数据损耗为零
-    public void Fight(){
+    public void fight(){
         this.vit = 0;
         this.atk = 0;
         this.def = 0;
@@ -64,12 +64,12 @@ public class GameRole {
 
     //保存角色状态
     //新增"保存角色状态"方法,将游戏角色的三个状态值通过实例化"角色状态存储箱"返回
-    public RoleStateMemento SaveState(){
+    public RoleStateMemento saveState(){
         return new RoleStateMemento(vit, atk, def);
     }
 
     //恢复角色状态
-    public void RecoveryState(RoleStateMemento memento){
+    public void recoveryState(RoleStateMemento memento){
         this.vit = memento.getVit();
         this.atk = memento.getAtk();
         this.def = memento.getDef();

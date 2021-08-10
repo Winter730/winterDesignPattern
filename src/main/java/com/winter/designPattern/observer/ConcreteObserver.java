@@ -17,7 +17,7 @@ public class ConcreteObserver extends Observer {
     }
 
     @Override
-    public void Update() {
+    public void update() {
         observerState = subject.SubjectState;
         System.out.println("观察者 " + name + " 的新状态是 " + observerState);
     }

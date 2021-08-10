@@ -10,11 +10,11 @@ public class Product {
     List<String> parts = new ArrayList<>();
 
     //添加产品部件
-    public void Add(String part){
+    public void add(String part){
         parts.add(part);
     }
 
-    public void Show(){
+    public void show(){
         System.out.println("产品 创建------");
         for(String part: parts){
             System.out.println(part);

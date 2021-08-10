@@ -12,7 +12,7 @@ public class Singleton {
     }
 
     //此方法是获得本类实例的唯一全局访问点
-    public static Singleton GetInstance(){
+    public static Singleton getInstance(){
         //若实例不存在,则 new 一个新实例,否则返回已有的实例
         if(instance == null){
             instance = new Singleton();

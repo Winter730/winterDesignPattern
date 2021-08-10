@@ -5,7 +5,7 @@ package com.winter.designPattern.abstractFactory.abstractFactoryDemo1;
  */
 public class SqlServerUser implements IUser {
     @Override
-    public void Insert(User user) {
+    public void insert(User user) {
         System.out.println("在SQL Server中给User表增加一条记录");
     }
 

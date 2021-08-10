@@ -1,7 +1,7 @@
 package com.winter.designPattern.abstractFactory.abstractFactoryDemo3;
 
-import com.winter.algorithm.designPattern.abstractFactory.abstractFactoryDemo1.IDepartment;
-import com.winter.algorithm.designPattern.abstractFactory.abstractFactoryDemo1.IUser;
+import com.winter.designPattern.abstractFactory.abstractFactoryDemo1.IDepartment;
+import com.winter.designPattern.abstractFactory.abstractFactoryDemo1.IUser;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

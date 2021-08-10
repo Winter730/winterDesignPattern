@@ -11,7 +11,7 @@ public class ForeignCenter {
         this.name = name;
     }
 
-    public void attact(){
+    public void attack(){
         System.out.println("外籍中锋" + name + "进攻");
     }
 

@@ -1,7 +1,7 @@
 package com.winter.designPattern.flyweight.flyweightDemo1;
 
 public class ConcreteWebSite extends WebSite {
-    private String name = "";
+    private String name;
 
     public ConcreteWebSite(String name) {
         this.name = name;

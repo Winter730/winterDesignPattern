@@ -2,7 +2,7 @@ package com.winter.designPattern.simpleFactory;
 
 public class OperationDiv extends Operation {
     @Override
-    public double GetResult() {
+    public double getResult() {
         double result = 0;
         try {
             if(get_numberB() == 0){

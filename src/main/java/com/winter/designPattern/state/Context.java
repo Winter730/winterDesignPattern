@@ -19,7 +19,7 @@ public class Context {
         System.out.println("当前状态:" + state.getClass().getName());
     }
 
-    public void Request(){
-        state.Handle(this);
+    public void request(){
+        state.handle(this);
     }
 }

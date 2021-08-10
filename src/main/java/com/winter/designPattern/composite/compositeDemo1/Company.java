@@ -11,15 +11,15 @@ public abstract class Company {
     }
 
     //增加
-    public abstract void Add(Company c);
+    public abstract void add(Company c);
 
     //移除
-    public abstract void Remove(Company c);
+    public abstract void remove(Company c);
 
     //显示
-    public abstract void Display(int depth);
+    public abstract void display(int depth);
 
     //履行职责
     //增加"履行职责"方法,不同的部门需要履行不同的职责
-    public abstract void LineOfDuty();
+    public abstract void lineOfDuty();
 }

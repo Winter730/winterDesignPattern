@@ -1,7 +1,7 @@
 package com.winter.designPattern.abstractFactory.abstractFactoryDemo2;
 
 
-import com.winter.algorithm.designPattern.abstractFactory.abstractFactoryDemo1.*;
+import com.winter.designPattern.abstractFactory.abstractFactoryDemo1.*;
 
 /**
  * 去除IFactory、SqlServerFactory和AccessFactory三个工厂类
@@ -11,7 +11,7 @@ public class DataAccess {
     //private static final String db  = "SqlServer";
     private static final String db  = "Access";
 
-    public static IUser CreateUser(){
+    public static IUser createUser(){
         IUser result = null;
         switch (db)
         {
@@ -25,7 +25,7 @@ public class DataAccess {
         return result;
     }
 
-    public static IDepartment CreateDepartment(){
+    public static IDepartment createDepartment(){
         IDepartment result = null;
         switch (db)
         {

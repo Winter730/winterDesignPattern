@@ -5,12 +5,12 @@ package com.winter.designPattern.abstractFactory.abstractFactoryDemo1;
  */
 public class AccessFactory implements IFactory{
     @Override
-    public IUser CreateUser() {
+    public IUser createUser() {
         return new AccessUser();
     }
 
     @Override
-    public IDepartment CreateDepartment() {
+    public IDepartment createDepartment() {
         return new AccessDepartment();
     }
 }

@@ -8,8 +8,8 @@ public class Adapter extends Target{
     private Adaptee adaptee = new Adaptee();
 
     @Override
-    public void Request() {
+    public void request() {
         //这样就可以把表面上调用Request()方法变成实际调用SpecificRequest()
-        adaptee.SpecificRequest();
+        adaptee.specificRequest();
     }
 }

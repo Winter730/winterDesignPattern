@@ -12,6 +12,6 @@ public class Waiter {
 
     //通知执行
     public void Notify(){
-        command.ExecuteCommand();
+        command.executeCommand();
     }
 }

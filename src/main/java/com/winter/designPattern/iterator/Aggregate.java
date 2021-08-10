@@ -5,5 +5,5 @@ package com.winter.designPattern.iterator;
  */
 public abstract class Aggregate {
     //创建迭代器
-    public abstract Iterator CreateIterator();
+    public abstract Iterator createIterator();
 }

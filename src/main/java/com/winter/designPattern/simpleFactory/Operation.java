@@ -20,5 +20,5 @@ public abstract class Operation {
         this._numberB = _numberB;
     }
 
-    public abstract double GetResult();
+    public abstract double getResult();
 }

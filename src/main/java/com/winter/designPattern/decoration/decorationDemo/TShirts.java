@@ -6,7 +6,7 @@ package com.winter.designPattern.decoration.decorationDemo;
 public class TShirts extends Finery{
     @Override
     public void show() {
-        System.out.println("大T恤");
+        System.out.print("大T恤 ");
         super.show();
     }
 }

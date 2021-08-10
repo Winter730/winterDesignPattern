@@ -3,7 +3,7 @@ package com.winter.designPattern.decoration.decorationDemo;
 public class BigTrouser extends Finery{
     @Override
     public void show() {
-        System.out.println("垮裤");
+        System.out.print("垮裤 ");
         super.show();
     }
 }

@@ -8,16 +8,16 @@ public class Main {
         FlyweightFactory f = new FlyweightFactory();
 
         Flyweight fx = f.getFlyweight("X");
-        fx.Operation(--extrinsicState);
+        fx.operation(--extrinsicState);
 
         Flyweight fy = f.getFlyweight("Y");
-        fy.Operation(--extrinsicState);
+        fy.operation(--extrinsicState);
 
         Flyweight fz = f.getFlyweight("Z");
-        fz.Operation(--extrinsicState);
+        fz.operation(--extrinsicState);
 
         UnsharedConcreteFlyweight uf = new UnsharedConcreteFlyweight();
-        uf.Operation(--extrinsicState);
+        uf.operation(--extrinsicState);
 
     }
 }

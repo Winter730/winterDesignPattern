@@ -5,7 +5,7 @@ package com.winter.designPattern.factoryMethod.factoryMethodDemo2;
  */
 public class UndergraduateFactory implements IFactory {
     @Override
-    public LeiFeng CreateLeiFeng() {
+    public LeiFeng createLeiFeng() {
         return new Undergraduate();
     }
 }

@@ -13,9 +13,9 @@ public class Main {
 
         //Iterator i = new ConcreteIterator(a);
         Iterator i = new ConcreteIteratorDesc(a);
-        while (!i.IsDone()) {
-            System.out.println(i.CurrentItem() + "请买车票");
-            i.Next();
+        while (!i.isDone()) {
+            System.out.println(i.currentItem() + "请买车票");
+            i.next();
         }
 
     }

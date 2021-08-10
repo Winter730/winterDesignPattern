@@ -6,11 +6,11 @@ package com.winter.designPattern.iterator;
  */
 public abstract class Iterator {
 
-    public abstract Object First();
+    public abstract Object first();
 
-    public abstract Object Next();
+    public abstract Object next();
 
-    public abstract boolean IsDone();
+    public abstract boolean isDone();
 
-    public abstract Object CurrentItem();
+    public abstract Object currentItem();
 }

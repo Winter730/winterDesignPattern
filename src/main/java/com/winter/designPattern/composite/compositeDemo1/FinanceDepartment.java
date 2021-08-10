@@ -7,17 +7,17 @@ public class FinanceDepartment extends Company{
     }
 
     @Override
-    public void Add(Company c) {
+    public void add(Company c) {
 
     }
 
     @Override
-    public void Remove(Company c) {
+    public void remove(Company c) {
 
     }
 
     @Override
-    public void Display(int depth) {
+    public void display(int depth) {
         for(int i = 0; i < depth;i++){
             System.out.print("-");
         }
@@ -25,7 +25,7 @@ public class FinanceDepartment extends Company{
     }
 
     @Override
-    public void LineOfDuty() {
+    public void lineOfDuty() {
         System.out.println(name + " 公司财务收支管理");
     }
 }

@@ -14,32 +14,32 @@ public class ConcreteCompany extends Company {
     }
 
     @Override
-    public void Add(Company c) {
+    public void add(Company c) {
         children.add(c);
     }
 
 
     @Override
-    public void Remove(Company c) {
+    public void remove(Company c) {
         children.remove(c);
     }
 
     @Override
-    public void Display(int depth) {
+    public void display(int depth) {
         for(int i = 0; i < depth;i++){
             System.out.print("-");
         }
         System.out.println(name);
 
         for(Company component : children){
-            component.Display(depth + 2);
+            component.display(depth + 2);
         }
     }
 
     @Override
-    public void LineOfDuty() {
+    public void lineOfDuty() {
         for(Company company : children) {
-            company.LineOfDuty();
+            company.lineOfDuty();
         }
     }
 }

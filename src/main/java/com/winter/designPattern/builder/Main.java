@@ -8,12 +8,12 @@ public class Main {
 
         //指挥者用ConcreteBuilder1的方法来建造产品
         director.Construct(b1);
-        Product p1 = b1.GetResult();
-        p1.Show();
+        Product p1 = b1.getResult();
+        p1.show();
 
         //指挥者用ConcreteBuilder2的方法来建造产品
         director.Construct(b2);
-        Product p2 = b2.GetResult();
-        p2.Show();
+        Product p2 = b2.getResult();
+        p2.show();
     }
 }

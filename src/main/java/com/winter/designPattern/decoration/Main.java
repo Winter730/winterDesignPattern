@@ -8,6 +8,6 @@ public class Main {
 
         d1.setComponent(c);
         d2.setComponent(d1);
-        d2.Operation();
+        d2.operation();
     }
 }

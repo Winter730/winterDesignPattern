@@ -11,5 +11,5 @@ public abstract class Handler {
     }
 
     //处理请求的抽象方法
-    public abstract void HandlerRequest(int request);
+    public abstract void handlerRequest(int request);
 }

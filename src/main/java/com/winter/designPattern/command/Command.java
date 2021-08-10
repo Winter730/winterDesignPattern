@@ -10,6 +10,6 @@ public abstract class Command {
         this.receiver = receiver;
     }
 
-    public abstract void Execute();
+    public abstract void execute();
 
 }

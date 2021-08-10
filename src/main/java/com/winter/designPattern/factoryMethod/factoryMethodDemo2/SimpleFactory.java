@@ -1,7 +1,7 @@
 package com.winter.designPattern.factoryMethod.factoryMethodDemo2;
 
 public class SimpleFactory {
-    public static LeiFeng CreateLeiFeng(String type){
+    public static LeiFeng createLeiFeng(String type){
         LeiFeng result = null;
         switch (type){
             case "学雷锋的大学生":

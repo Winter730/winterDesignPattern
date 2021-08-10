@@ -8,7 +8,7 @@ package com.winter.designPattern.interpreter;
  */
 public class TerminalExpression extends AbstractExpression{
     @Override
-    public void interpret(com.winter.algorithm.designPattern.interpreter.Context context) {
+    public void interpret(Context context) {
         System.out.println("终端解释器");
     }
 }

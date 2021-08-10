@@ -5,7 +5,7 @@ package com.winter.designPattern.proxy;
  */
 public class RealSubject extends Subject {
     @Override
-    public void Request() {
+    public void request() {
         System.out.println("真实的请求");
     }
 }

@@ -4,7 +4,7 @@ package com.winter.designPattern.decoration.decorationDemo;
  * Person类
  * ConcreteComponent
  */
-public abstract class Person {
+public class Person {
     public Person() {
     }
 

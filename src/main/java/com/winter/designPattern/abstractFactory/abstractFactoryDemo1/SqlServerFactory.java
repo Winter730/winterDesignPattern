@@ -5,12 +5,12 @@ package com.winter.designPattern.abstractFactory.abstractFactoryDemo1;
  */
 public class SqlServerFactory implements IFactory {
     @Override
-    public IUser CreateUser() {
+    public IUser createUser() {
         return new SqlServerUser();
     }
 
     @Override
-    public IDepartment CreateDepartment() {
+    public IDepartment createDepartment() {
         return new SqlServerDepartment();
     }
 }

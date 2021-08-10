@@ -3,13 +3,13 @@ package com.winter.designPattern.adapter.adapterDemo1;
 public class Main {
     public static void main(String[] args){
         Player b = new Forwards("b");
-        b.Attack();
+        b.attack();
 
         Player m = new Guards("m");
-        m.Attack();
+        m.attack();
 
         Player ym = new Translator("ym");
-        ym.Attack();
-        ym.Defense();
+        ym.attack();
+        ym.defense();
     }
 }

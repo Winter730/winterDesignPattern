@@ -29,7 +29,7 @@ public class CashContext {
     }
 
     //根据收费策略的不同,获得计算结果
-    public double GetResult(double money) {
+    public double getResult(double money) {
         return cs.acceptCash(money);
     }
 }

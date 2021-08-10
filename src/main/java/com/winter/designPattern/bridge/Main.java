@@ -5,9 +5,9 @@ public class Main {
         Abstarction ab = new RefineAbstraction();
 
         ab.setImplementor(new ConcreteImplementorA());
-        ab.Operation();
+        ab.operation();
 
         ab.setImplementor(new ConcreteImplementorB());
-        ab.Operation();
+        ab.operation();
     }
 }

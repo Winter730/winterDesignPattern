@@ -2,17 +2,17 @@ package com.winter.designPattern.templateMethod.templateMethodDemo1;
 
 public class TestPaperA extends TestPaper {
     @Override
-    protected String Answer1() {
+    protected String answer1() {
         return "a";
     }
 
     @Override
-    protected String Answer2() {
+    protected String answer2() {
         return "a";
     }
 
     @Override
-    protected String Answer3() {
+    protected String answer3() {
         return "a";
     }
 }

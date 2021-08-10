@@ -5,5 +5,5 @@ package com.winter.designPattern.observer;
  * 抽象观察者一般用一个抽象类或者一个接口实现。更新接口通常包含一个Update()方法,这个方法叫做更新方法。
  */
 public abstract class Observer {
-    public abstract void Update();
+    public abstract void update();
 }

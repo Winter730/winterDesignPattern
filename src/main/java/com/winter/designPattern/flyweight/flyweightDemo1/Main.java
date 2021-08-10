@@ -4,23 +4,23 @@ public class Main {
     public static void main(String[] args){
         WebSiteFactory f = new WebSiteFactory();
 
-        WebSite fx = f.getWebSiteCategoty("产品展示");
+        WebSite fx = f.getWebSiteCategory("产品展示");
         fx.use();
 
-        WebSite fy = f.getWebSiteCategoty("产品展示");
+        WebSite fy = f.getWebSiteCategory("产品展示");
         fy.use();
 
-        WebSite fz = f.getWebSiteCategoty("产品展示");
+        WebSite fz = f.getWebSiteCategory("产品展示");
         fz.use();
 
-        WebSite f1 = f.getWebSiteCategoty("博客");
+        WebSite f1 = f.getWebSiteCategory("博客");
         f1.use();
 
 
-        WebSite f2 = f.getWebSiteCategoty("博客");
+        WebSite f2 = f.getWebSiteCategory("博客");
         f2.use();
 
-        WebSite f3 = f.getWebSiteCategoty("博客");
+        WebSite f3 = f.getWebSiteCategory("博客");
         f3.use();
 
         System.out.println("网站分类总数为" + f.getWebSiteCount());

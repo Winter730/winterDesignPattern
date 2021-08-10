@@ -7,7 +7,7 @@ public class Finery extends Person {
     protected Person component;
 
     //打扮
-    public void Decorate(Person component) {
+    public void decorate(Person component) {
         this.component = component;
     }
 

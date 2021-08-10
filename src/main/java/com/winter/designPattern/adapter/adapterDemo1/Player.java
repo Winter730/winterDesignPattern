@@ -7,7 +7,7 @@ public abstract class Player {
         this.name = name;
     }
 
-    public abstract void Attack();
+    public abstract void attack();
 
-    public abstract void Defense();
+    public abstract void defense();
 }

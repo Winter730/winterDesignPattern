@@ -7,8 +7,8 @@ public class Main {
 
         Proxy daili = new Proxy(jiaojiao);
 
-        daili.GiveChocolate();
-        daili.GiveDolls();
-        daili.GiveFlowers();
+        daili.giveChocolate();
+        daili.giveDolls();
+        daili.giveFlowers();
     }
 }

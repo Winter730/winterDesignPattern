@@ -6,7 +6,7 @@ package com.winter.designPattern.flyweight;
  */
 public class UnsharedConcreteFlyweight extends Flyweight{
     @Override
-    public void Operation(int extrinsicState) {
+    public void operation(int extrinsicState) {
         System.out.println("不共享的具体Flyweight:" + extrinsicState);
     }
 }

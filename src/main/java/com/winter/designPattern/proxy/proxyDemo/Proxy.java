@@ -8,17 +8,17 @@ public class Proxy implements GiveGift {
     }
 
     @Override
-    public void GiveDolls() {
-        gg.GiveDolls();
+    public void giveDolls() {
+        gg.giveDolls();
     }
 
     @Override
-    public void GiveFlowers() {
-        gg.GiveFlowers();
+    public void giveFlowers() {
+        gg.giveFlowers();
     }
 
     @Override
-    public void GiveChocolate() {
-        gg.GiveChocolate();
+    public void giveChocolate() {
+        gg.giveChocolate();
     }
 }

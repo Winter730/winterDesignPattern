@@ -20,7 +20,7 @@ public class Work {
         this.finish = finish;
     }
 
-    public void WriteProgram(){
+    public void writeProgram(){
         if(hour < 12){
             System.out.println("当前时间:" + hour + "点 上午工作,精神百倍");
         } else if(hour < 13){

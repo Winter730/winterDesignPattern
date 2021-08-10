@@ -7,5 +7,5 @@ public abstract class Command {
         this.receiver = receiver;
     }
 
-    public abstract void ExecuteCommand();
+    public abstract void executeCommand();
 }
